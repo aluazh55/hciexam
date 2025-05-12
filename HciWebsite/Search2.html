@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskFlow - Search</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-screen bg-white font-sans">
+    <div class="flex h-full">
+        <!-- Sidebar -->
+        <aside class="w-64 bg-[#e3f9e5] p-4 flex flex-col">
+            <div class="mb-8 text-center">
+                <img src="assets/LogoHci.png" alt="TaskFlow Logo" class="w-24 mx-auto mb-2">
+            </div>
+            
+
+            <a href="profileEdit.html" class="flex items-center mb-8">
+                <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
+                <div class="ml-3">
+                    <div class="font-bold text-sm">User Name</div>
+                    <div class="text-xs text-white-600">Job Position</div>
+                </div>
+            </a>
+
+            <nav class="flex flex-col gap-2">
+                <a href="search2.html" class="bg-[#2b5c5a] text-white py-2 px-4 rounded-full text-left flex items-center gap-2">
+                    <img src="assets/searchLight.png" alt="Search" class="w-5 h-5"> <span>Search</span>
+                </a>
+                <a href="projects.html" class="text-left hover:bg-gray-100 py-2 px-4 rounded-full flex items-center gap-2">
+                    <img src="assets/projectDark.png" alt="Projects" class="w-5 h-5"> <span>Projects</span>
+                </a>
+                <a href="messages1.html" class="text-left hover:bg-gray-100 py-2 px-4 rounded-full flex items-center gap-2">
+                    <img src="assets/messageDark.png" alt="Messages" class="w-5 h-5"> <span>Messages</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1">
+            <!-- Header -->
+            <header class="border-b p-6">
+                <h1 class="text-xl font-semibold text-[#026e78]">Search</h1>
+            </header>
+
+            <!-- Filters -->
+            <section class="border-b p-6 grid grid-cols-4 gap-6 items-end">
+                <div>
+                    <label class="block mb-1 font-medium text-sm">Name</label>
+                    <input type="text" placeholder="Type ..." class="w-full border rounded px-3 py-2 text-sm">
+                </div>
+                <div>
+                    <label class="block mb-1 font-medium text-sm">Availability Status</label>
+                    <select class="w-full border rounded px-3 py-2 text-sm">
+                        <option>Choose</option>
+                        <option>Available</option>
+                        <option>Busy</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block mb-1 font-medium text-sm">Job Position</label>
+                    <select class="w-full border rounded px-3 py-2 text-sm">
+                        <option>Choose</option>
+                        <option>Developer</option>
+                        <option>Designer</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block mb-1 font-medium text-sm">Responsibilities</label>
+                    <select class="w-full border rounded px-3 py-2 text-sm">
+                        <option>Choose</option>
+                        <option>UI Design</option>
+                        <option>API</option>
+                    </select>
+                </div>
+                <div class="col-span-4 flex justify-center mt-4">
+                    <button class="bg-[#6b7dff] text-white px-6 py-2 rounded-full flex items-center gap-2 text-sm">
+                        <img src="assets/searchLight.png" alt="Search" class="w-4 h-4"> Search
+                    </button>
+                </div>
+            </section>
+
+            <!-- Results -->
+            <section class="p-6 space-y-4">
+                <a href="CoworkerPage.html" class="flex items-start gap-4 no-underline text-inherit hover:bg-gray-100 p-2 rounded-lg">
+                    <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
+                    <div>
+                        <div class="font-bold text-sm">User Name</div>
+                        <div class="text-sm text-gray-700">
+                            Job Position/Status - Working<br />
+                            Responsibilities: Responsibility 1
+                        </div>
+                    </div>
+                </a>
+
+
+                <a href="CoworkerPage.html" class="flex items-start gap-4 no-underline text-inherit hover:bg-gray-100 p-2 rounded-lg">
+                    <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
+                    <div>
+                        <div class="font-bold text-sm">User Name</div>
+                        <div class="text-sm text-gray-700">
+                            Job Position/Status - Working<br />
+                            Responsibilities: Responsibility 1
+                        </div>
+                    </div>
+                </a>
+
+                <a href="CoworkerPage.html" class="flex items-start gap-4 no-underline text-inherit hover:bg-gray-100 p-2 rounded-lg">
+                    <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
+                    <div>
+                        <div class="font-bold text-sm">User Name</div>
+                        <div class="text-sm text-gray-700">
+                            Job Position/Status - Working<br />
+                            Responsibilities: Responsibility 1
+                        </div>
+                    </div>
+                </a>
+
+                <a href="CoworkerPage.html" class="flex items-start gap-4 no-underline text-inherit hover:bg-gray-100 p-2 rounded-lg">
+                    <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
+                    <div>
+                        <div class="font-bold text-sm">User Name</div>
+                        <div class="text-sm text-gray-700">
+                            Job Position/Status - Working<br />
+                            Responsibilities: Responsibility 1
+                        </div>
+                    </div>
+                </a>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

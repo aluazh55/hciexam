@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-screen bg-white font-sans">
+    <div class="flex h-full">
+        <!-- Sidebar -->
+        <aside class="w-64 bg-[#e3f9e5] p-4 flex flex-col">
+            <div class="mb-8 text-center">
+                <img src="assets/LogoHci.png" alt="TaskFlow Logo" class="w-24 mx-auto mb-2">
+            </div>
+            <a href="profileEdit.html" class="flex items-center mb-8 p-2 rounded border border-[#2b5c5a] bg-[#2b5c5a] text-white">
+                <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
+                <div class="ml-3">
+                    <div class="font-bold text-sm">User Name</div>
+                    <div class="text-xs text-white-600">Job Position</div>
+                </div>
+            </a>
+            <nav class="flex flex-col gap-2">
+                <a href="search2.html" class="text-left hover:bg-gray-100 py-2 px-4 rounded-full flex items-center gap-2">
+                    <img src="assets/searchDark.png" alt="Search" class="w-5 h-5"> <span>Search</span>
+                </a>
+                <a href="projects.html" class="text-left hover:bg-gray-100 py-2 px-4 rounded-full flex items-center gap-2">
+                    <img src="assets/projectDark.png" alt="Projects" class="w-5 h-5"> <span>Projects</span>
+                </a>
+                <a href="messages1.html" class="text-left hover:bg-gray-100 py-2 px-4 rounded-full flex items-center gap-2">
+                    <img src="assets/messageDark.png" alt="Messages" class="w-5 h-5"> <span>Messages</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1">
+            <header class="border-b p-6">
+                <h1 class="text-xl font-semibold text-[#026e78]">Profile</h1>
+            </header>
+
+            <section class="border-b p-6 flex justify-between items-center">
+                <div class="flex items-center gap-4">
+                    <div class="w-16 h-16 bg-gray-300 rounded-full"></div>
+                    <div>
+                        <div class="font-bold text-lg">User Name</div>
+                        <div class="text-sm text-gray-600">Job Position</div>
+                    </div>
+                </div>
+                <button class="bg-red-400 text-white py-2 px-6 rounded-full">Log Out</button>
+            </section>
+
+            <section class="p-6 grid grid-cols-2 gap-8 text-sm" id="infoSection">
+                <div id="responsibilities">
+                    <h2 class="font-bold mb-1">Responsibilities</h2>
+                    <ul class="list-disc ml-6">
+                        <li>Responsibility 1</li>
+                        <li>Responsibility 2</li>
+                        <li>Responsibility 3</li>
+                        <li>Responsibility 4</li>
+                    </ul>
+                </div>
+                <div id="skills">
+                    <h2 class="font-bold mb-1">Skills</h2>
+                    <ul class="list-disc ml-6">
+                        <li>Skill 1</li>
+                        <li>Skill 2</li>
+                        <li>Skill 3</li>
+                        <li>Skill 4</li>
+                    </ul>
+                </div>
+                <div id="location">
+                    <h2 class="font-bold mb-1">Location</h2>
+                    <p>Building 1, Floor 2,<br>Cabinet 3</p>
+                </div>
+                <div>
+                    <h2 class="font-bold mb-1">Availability</h2>
+                    <p>• 9:00 AM - 18:00 PM</p>
+                </div>
+            </section>
+
+            <section class="p-6">
+
+                <a href="profileSave.html" class="mt-4 px-6 py-2 bg-gray-200 rounded inline-block">Edit</a>
+
+            </section>
+        </main>
+    </div>
+
+    
+</body>
+</html>

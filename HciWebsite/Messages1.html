@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Chat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-screen bg-white font-sans">
+    <div class="flex h-full">
+        <!-- Sidebar -->
+        <aside class="w-64 bg-[#e3f9e5] p-4 flex flex-col">
+            <div class="mb-8 text-center">
+                <img src="assets/LogoHci.png" alt="TaskFlow Logo" class="w-24 mx-auto mb-2">
+            </div>
+            <a href="profileEdit.html" class="flex items-center mb-8">
+                <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
+                <div class="ml-3">
+                    <div class="font-bold text-sm">User Name</div>
+                    <div class="text-xs text-white-600">Job Position</div>
+                </div>
+            </a>
+            <nav class="flex flex-col gap-2">
+                <a href="search2.html" class="text-left hover:bg-gray-100 py-2 px-4 rounded-full flex items-center gap-2">
+                    <img src="assets/searchDark.png" alt="Search" class="w-5 h-5"> <span>Search</span>
+                </a>
+                <a href="projects.html" class="text-left hover:bg-gray-100 py-2 px-4 rounded-full flex items-center gap-2">
+                    <img src="assets/projectDark.png" alt="Projects" class="w-5 h-5"> <span>Projects</span>
+                </a>
+                <a href="messages1.html" class="bg-[#2b5c5a] text-white py-2 px-4 rounded-full text-left flex items-center gap-2">
+                    <img src="assets/messageLight.png" alt="Messages" class="w-5 h-5"> <span>Messages</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="flex-1 flex flex-col">
+            <!-- Top Bar -->
+            <header class="border-b px-6 py-4 flex items-center">
+                <div class="text-sm text-gray-500">
+                    Messages > <span class="text-[#026e78] font-medium">User Name</span>
+                </div>
+                <div class="flex items-center gap-3 text-sm ml-28">
+                    <div class="w-10 h-10 bg-gray-300 rounded-full"></div>
+                    <div>
+                        <div class="font-bold">User Name</div>
+                        <div class="text-xs text-gray-600">Status - Online</div>
+                    </div>
+                </div>
+            </header>
+
+
+
+            <!-- Chat Body -->
+            <div class="flex flex-1 overflow-hidden">
+                <!-- User List -->
+                <aside class="w-64 border-r p-4 overflow-y-auto">
+                    <div class="flex mb-4 items-center gap-2 border rounded px-2 py-1">
+                        <input type="text" placeholder="Search People" class="flex-1 outline-none text-sm" />
+                        <img src="assets/searchDark.png" class="w-4 h-4" />
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 bg-gray-300 rounded-full"></div>
+                            <div class="text-sm">
+                                <div class="font-bold">User Name</div>
+                                <div class="text-xs text-gray-600">Status - Online</div>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 bg-gray-300 rounded-full"></div>
+                            <div class="text-sm">
+                                <div class="font-bold">User Name</div>
+                                <div class="text-xs text-gray-600">Status - Offline</div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Chat Section -->
+                <section class="flex-1 flex flex-col justify-between p-6">
+                    <div class="flex-1 overflow-y-auto p-6" id="chatMessages">
+                        <p class="text-center text-sm text-gray-500 mb-4">Today</p>
+                        <!-- Messages will be appended here -->
+                    </div>
+
+                    <div class="p-4 border-t">
+                        <form class="flex items-center border border-purple-600 rounded px-3 py-2 w-full max-w-3xl mx-auto" onsubmit="sendMessage(event)">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-2 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10l11-7v18L3 14v-4z" />
+                            </svg>
+                            <input type="text"
+                                   id="messageInput"
+                                   class="flex-1 outline-none bg-transparent text-sm text-gray-800"
+                                   placeholder="Type Message. . ." />
+                            <button type="submit" class="text-sm text-purple-600 hover:underline">Send Message</button>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        function sendMessage(event) {
+            event.preventDefault();
+            const input = document.getElementById("messageInput");
+            const message = input.value.trim();
+            if (message !== "") {
+                const chatContainer = document.createElement("div");
+                chatContainer.className = "flex items-start gap-2 mb-3 px-6";
+
+                const avatar = document.createElement("div");
+                avatar.className = "w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center text-xs text-white font-semibold";
+                avatar.textContent = "U";
+
+                const bubble = document.createElement("div");
+                bubble.className = "border border-purple-600 p-2 rounded text-sm text-gray-800 max-w-md";
+                bubble.innerHTML = `
+               <div class="font-semibold">You</div>
+               <div>${message}</div>
+               <div class="text-xs text-right text-gray-400">Now</div>
+             `;
+
+                chatContainer.appendChild(avatar);
+                chatContainer.appendChild(bubble);
+                document.getElementById("chatMessages").appendChild(chatContainer);
+
+                input.value = "";
+                document.getElementById("chatMessages").scrollTop = document.getElementById("chatMessages").scrollHeight;
+            }
+        }
+    </script>
+</body>
+</html>
