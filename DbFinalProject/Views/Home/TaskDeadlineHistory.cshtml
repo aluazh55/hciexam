@@ -1,0 +1,33 @@
+﻿@model List<TaskDeadlineHistory>
+
+<table class="table table-hover">
+	<thead>
+		<tr>
+			<th>#</th>
+			<th>Exercise</th>
+			<th>Old Deadline</th>
+			<th>New Deadline</th>
+			<th>Changed At</th>
+			<th>Reason</th>
+			<th>Edit</th>
+			<th>Delete</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>@item.Id</td>
+				<td>@item.Exercise?.Name</td>
+				<td>@item.OldDeadline?.ToShortDateString()</td>
+				<td>@item.NewDeadline?.ToShortDateString()</td>
+				<td>@item.ChangedAt.ToShortDateString()</td>
+				<td>@item.Reason</td>
+				<td><a href="@Url.Action("EditTaskDeadlineHistory", "Home", new { id = item.Id })">Edit</a></td>
+				<td><a href="@Url.Action("DeleteTaskDeadlineHistory", "Home", new { id = item.Id })">Delete</a></td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+<a href="@Url.Action("EditTaskDeadlineHistory", "Home")" class="btn btn-primary">Add Change</a>

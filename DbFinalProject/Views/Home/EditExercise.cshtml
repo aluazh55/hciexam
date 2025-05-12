@@ -1,0 +1,62 @@
+﻿@model Exercise
+<div class="portlet light bordered">
+	<div class="portlet-title">
+		<div class="caption">
+			<i class="icon-equalizer font-red-sunglo"></i>
+			<span class="caption-subject font-red-sunglo bold uppercase">Add Position</span>
+			<span class="caption-helper">form actions without bg color</span>
+		</div>
+		<div class="actions">
+			<div class="portlet-input input-inline input-small">
+				<div class="input-icon right">
+					<i class="icon-magnifier"></i>
+					<input type="text" class="form-control input-circle" placeholder="search...">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portlet-body form">
+		<!-- BEGIN FORM-->
+		<form asp-action="EditExercise" asp-controller="Home" class="form-horizontal">
+			<div class="form-body">
+				<div class="form-group">
+					<label class="col-md-3 control-label">Name</label>
+					<div class="col-md-4">
+						<input type="text" class="form-control" placeholder="Enter task name" asp-for="Name">
+						<span class="help-block">Enter name of the task.</span>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-md-3 control-label">Description</label>
+					<div class="col-md-4">
+						<input type="text" class="form-control" placeholder="Enter description" asp-for="Description">
+						<span class="help-block">Enter task description.</span>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-md-3 control-label">Deadline</label>
+					<div class="col-md-4">
+						<input type="date" class="form-control" asp-for="Deadline">
+						<span class="help-block">Select deadline for the task.</span>
+					</div>
+				</div>
+				<div class="form-group last">
+					<label class="col-md-3 control-label">Priority</label>
+					<div class="col-md-4">
+						<input type="text" class="form-control" placeholder="Enter priority" asp-for="Priority">
+						<span class="help-block">Enter task priority (e.g., High, Medium, Low).</span>
+					</div>
+				</div>
+			</div>
+			<div class="form-actions">
+				<div class="row">
+					<div class="col-md-offset-3 col-md-9">
+						<button type="submit" class="btn green">Submit</button>
+						<button type="button" class="btn default">Cancel</button>
+					</div>
+				</div>
+			</div>
+		</form>
+		<!-- END FORM-->
+	</div>
+</div>

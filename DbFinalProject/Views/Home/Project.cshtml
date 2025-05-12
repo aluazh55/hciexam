@@ -1,0 +1,29 @@
+﻿@model List<Project>
+
+<table class="table table-hover">
+	<thead>
+		<tr>
+			<th>#</th>
+			<th>Name</th>
+			<th>Description</th>
+			<th>Created</th>
+			<th>Edit</th>
+			<th>Delete</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>@item.Id</td>
+				<td>@item.Name</td>
+				<td>@item.Description</td>
+				<td>@item.CreatedAt.ToShortDateString()</td>
+				<td><a href="@Url.Action("EditProject", "Home", new { id = item.Id })">Edit</a></td>
+				<td><a href="@Url.Action("DeleteProject", "Home", new { id = item.Id })">Delete</a></td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+<a href="@Url.Action("EditProject", "Home")" class="btn btn-primary">Add Project</a>

@@ -1,0 +1,31 @@
+﻿@model List<Notification>
+
+<table class="table table-hover">
+	<thead>
+		<tr>
+			<th>#</th>
+			<th>Employee</th>
+			<th>Message</th>
+			<th>Date</th>
+			<th>Read</th>
+			<th>Edit</th>
+			<th>Delete</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>@item.Id</td>
+				<td>@item.Employee?.Name</td>
+				<td>@item.Message</td>
+				<td>@item.CreatedAt.ToShortDateString()</td>
+				<td>@item.Read</td>
+				<td><a href="@Url.Action("EditNotification", "Home", new { id = item.Id })">Edit</a></td>
+				<td><a href="@Url.Action("DeleteNotification", "Home", new { id = item.Id })">Delete</a></td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+<a href="@Url.Action("EditNotification", "Home")" class="btn btn-primary">Add Notification</a>

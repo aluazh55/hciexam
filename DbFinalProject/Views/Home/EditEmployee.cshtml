@@ -1,0 +1,62 @@
+﻿@model Employee
+
+<div class="portlet light bordered">
+	<div class="portlet-title">
+		<div class="caption">
+			<i class="icon-equalizer font-red-sunglo"></i>
+			<span class="caption-subject font-red-sunglo bold uppercase">Add Position</span>
+			<span class="caption-helper">form actions without bg color</span>
+		</div>
+		<div class="actions">
+			<div class="portlet-input input-inline input-small">
+				<div class="input-icon right">
+					<i class="icon-magnifier"></i>
+					<input type="text" class="form-control input-circle" placeholder="search...">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portlet-body form">
+		<!-- BEGIN FORM-->
+		<form asp-action="EditEmployee" asp-controller="Home" method="post" class="form-horizontal">
+
+			<div class="form-body">
+				<div class="form-group">
+					<label class="col-md-3 control-label">Name</label>
+					<div class="col-md-4">
+						<input type="text" class="form-control" asp-for="Name">
+						<span class="help-block">Enter employee name.</span>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-md-3 control-label">Email</label>
+					<div class="col-md-4">
+						<input type="email" class="form-control" asp-for="Email">
+						<span class="help-block">Enter employee email.</span>
+					</div>
+				</div>
+				<select class="form-control" asp-items="ViewBag.Positions">
+					<option value="">-- Select position --</option>
+				</select>
+
+				<div class="form-group last">
+					<label class="col-md-3 control-label">Status ID</label>
+					<div class="col-md-4">
+						<input type="number" class="form-control" asp-for="StatusId">
+						<span class="help-block">Enter status ID.</span>
+					</div>
+				</div>
+			</div>
+			<div class="form-actions">
+				<div class="row">
+					<div class="col-md-offset-3 col-md-9">
+						<button type="submit" class="btn green">Submit</button>
+						<button type="button" class="btn default">Cancel</button>
+					</div>
+				</div>
+			</div>
+		</form>
+
+		<!-- END FORM-->
+	</div>
+</div>

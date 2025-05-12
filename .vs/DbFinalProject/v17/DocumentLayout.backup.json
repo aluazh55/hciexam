@@ -1,0 +1,308 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WebProjects\\DbFinalProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|d:\\webprojects\\dbfinalproject\\dbfinalproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|solutionrelative:dbfinalproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|d:\\webprojects\\dbfinalproject\\dbfinalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|solutionrelative:dbfinalproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|d:\\webprojects\\dbfinalproject\\dbfinalproject\\views\\home\\skill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|solutionrelative:dbfinalproject\\views\\home\\skill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|d:\\webprojects\\dbfinalproject\\dbfinalproject\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|solutionrelative:dbfinalproject\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|d:\\webprojects\\dbfinalproject\\dbfinalproject\\views\\home\\availabilitystatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|solutionrelative:dbfinalproject\\views\\home\\availabilitystatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|d:\\webprojects\\dbfinalproject\\dbfinalproject\\views\\home\\editposition.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|solutionrelative:dbfinalproject\\views\\home\\editposition.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|d:\\webprojects\\dbfinalproject\\dbfinalproject\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|solutionrelative:dbfinalproject\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|d:\\webprojects\\dbfinalproject\\dbfinalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|solutionrelative:dbfinalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|d:\\webprojects\\dbfinalproject\\dbfinalproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|solutionrelative:dbfinalproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|d:\\webprojects\\dbfinalproject\\dbfinalproject\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|solutionrelative:dbfinalproject\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|d:\\webprojects\\dbfinalproject\\dbfinalproject\\views\\home\\editteam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|solutionrelative:dbfinalproject\\views\\home\\editteam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|d:\\webprojects\\dbfinalproject\\dbfinalproject\\views\\home\\position.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|solutionrelative:dbfinalproject\\views\\home\\position.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0438 2\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|d:\\webprojects\\dbfinalproject\\dbfinalproject\\views\\home\\exercise.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|solutionrelative:dbfinalproject\\views\\home\\exercise.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|d:\\webprojects\\dbfinalproject\\dbfinalproject\\views\\home\\taskdeadlinehistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|solutionrelative:dbfinalproject\\views\\home\\taskdeadlinehistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|d:\\webprojects\\dbfinalproject\\dbfinalproject\\views\\home\\employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|solutionrelative:dbfinalproject\\views\\home\\employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|d:\\webprojects\\dbfinalproject\\dbfinalproject\\views\\home\\editemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|solutionrelative:dbfinalproject\\views\\home\\editemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|d:\\webprojects\\dbfinalproject\\dbfinalproject\\views\\home\\edittaskdeadlinehistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{459D4DFD-D9D9-4ABA-8229-8117DD0EA498}|DbFinalProject\\DbFinalProject.csproj|solutionrelative:dbfinalproject\\views\\home\\edittaskdeadlinehistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Skill.cshtml",
+              "DocumentMoniker": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\Skill.cshtml",
+              "RelativeDocumentMoniker": "DbFinalProject\\Views\\Home\\Skill.cshtml",
+              "ToolTip": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\Skill.cshtml",
+              "RelativeToolTip": "DbFinalProject\\Views\\Home\\Skill.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T06:03:40.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditPosition.cshtml",
+              "DocumentMoniker": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\EditPosition.cshtml",
+              "RelativeDocumentMoniker": "DbFinalProject\\Views\\Home\\EditPosition.cshtml",
+              "ToolTip": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\EditPosition.cshtml",
+              "RelativeToolTip": "DbFinalProject\\Views\\Home\\EditPosition.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T22:16:19.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Position.cs",
+              "DocumentMoniker": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Models\\Position.cs",
+              "RelativeDocumentMoniker": "DbFinalProject\\Models\\Position.cs",
+              "ToolTip": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Models\\Position.cs",
+              "RelativeToolTip": "DbFinalProject\\Models\\Position.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T04:42:50.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Program.cs",
+              "RelativeDocumentMoniker": "DbFinalProject\\Program.cs",
+              "ToolTip": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Program.cs",
+              "RelativeToolTip": "DbFinalProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T20:19:38.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DbFinalProject\\Context\\AppDbContext.cs",
+              "ToolTip": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "DbFinalProject\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T05:49:19.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DbFinalProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DbFinalProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAAALwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T06:11:37.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AvailabilityStatus.cshtml",
+              "DocumentMoniker": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\AvailabilityStatus.cshtml",
+              "RelativeDocumentMoniker": "DbFinalProject\\Views\\Home\\AvailabilityStatus.cshtml",
+              "ToolTip": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\AvailabilityStatus.cshtml",
+              "RelativeToolTip": "DbFinalProject\\Views\\Home\\AvailabilityStatus.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T05:44:38.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DbFinalProject\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DbFinalProject\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswJYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T04:45:41.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\appsettings.json",
+              "RelativeDocumentMoniker": "DbFinalProject\\appsettings.json",
+              "ToolTip": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\appsettings.json",
+              "RelativeToolTip": "DbFinalProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-28T20:19:36.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TaskDeadlineHistory.cshtml",
+              "DocumentMoniker": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\TaskDeadlineHistory.cshtml",
+              "RelativeDocumentMoniker": "DbFinalProject\\Views\\Home\\TaskDeadlineHistory.cshtml",
+              "ToolTip": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\TaskDeadlineHistory.cshtml",
+              "RelativeToolTip": "DbFinalProject\\Views\\Home\\TaskDeadlineHistory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T04:55:31.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Position.cshtml",
+              "DocumentMoniker": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\Position.cshtml",
+              "RelativeDocumentMoniker": "DbFinalProject\\Views\\Home\\Position.cshtml",
+              "ToolTip": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\Position.cshtml",
+              "RelativeToolTip": "DbFinalProject\\Views\\Home\\Position.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T05:38:59.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Employee.cshtml",
+              "DocumentMoniker": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\Employee.cshtml",
+              "RelativeDocumentMoniker": "DbFinalProject\\Views\\Home\\Employee.cshtml",
+              "ToolTip": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\Employee.cshtml",
+              "RelativeToolTip": "DbFinalProject\\Views\\Home\\Employee.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T05:39:05.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0438 2\\index.html",
+              "RelativeDocumentMoniker": "..\\..\\\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0438 2\\index.html",
+              "ToolTip": "D:\\\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0438 2\\index.html",
+              "RelativeToolTip": "..\\..\\\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0438 2\\index.html",
+              "ViewState": "AgIAALYAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-26T08:03:52.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "DbFinalProject\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "DbFinalProject\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T07:06:21.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditTeam.cshtml",
+              "DocumentMoniker": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\EditTeam.cshtml",
+              "RelativeDocumentMoniker": "DbFinalProject\\Views\\Home\\EditTeam.cshtml",
+              "ToolTip": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\EditTeam.cshtml",
+              "RelativeToolTip": "DbFinalProject\\Views\\Home\\EditTeam.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T22:16:47.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Exercise.cshtml",
+              "DocumentMoniker": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\Exercise.cshtml",
+              "RelativeDocumentMoniker": "DbFinalProject\\Views\\Home\\Exercise.cshtml",
+              "ToolTip": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\Exercise.cshtml",
+              "RelativeToolTip": "DbFinalProject\\Views\\Home\\Exercise.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T04:54:55.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditEmployee.cshtml",
+              "DocumentMoniker": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\EditEmployee.cshtml",
+              "RelativeDocumentMoniker": "DbFinalProject\\Views\\Home\\EditEmployee.cshtml",
+              "ToolTip": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\EditEmployee.cshtml",
+              "RelativeToolTip": "DbFinalProject\\Views\\Home\\EditEmployee.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T05:39:15.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EditTaskDeadlineHistory.cshtml",
+              "DocumentMoniker": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\EditTaskDeadlineHistory.cshtml",
+              "RelativeDocumentMoniker": "DbFinalProject\\Views\\Home\\EditTaskDeadlineHistory.cshtml",
+              "ToolTip": "D:\\WebProjects\\DbFinalProject\\DbFinalProject\\Views\\Home\\EditTaskDeadlineHistory.cshtml",
+              "RelativeToolTip": "DbFinalProject\\Views\\Home\\EditTaskDeadlineHistory.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAADsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T03:25:34.437Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

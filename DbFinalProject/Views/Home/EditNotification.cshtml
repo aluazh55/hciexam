@@ -1,0 +1,57 @@
+﻿@model Notification
+
+<div class="portlet light bordered">
+	<div class="portlet-title">
+		<div class="caption">
+			<i class="icon-equalizer font-red-sunglo"></i>
+			<span class="caption-subject font-red-sunglo bold uppercase">Add Position</span>
+			<span class="caption-helper">form actions without bg color</span>
+		</div>
+		<div class="actions">
+			<div class="portlet-input input-inline input-small">
+				<div class="input-icon right">
+					<i class="icon-magnifier"></i>
+					<input type="text" class="form-control input-circle" placeholder="search...">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portlet-body form">
+		<!-- BEGIN FORM-->
+		<form asp-action="EditNotification" asp-controller="Home" class="form-horizontal">
+			<div class="form-body">
+				<div class="form-group">
+					<label class="col-md-3 control-label">Employee ID</label>
+					<div class="col-md-4">
+						<input type="number" class="form-control" asp-for="EmployeeId">
+						<span class="help-block">Enter employee ID for notification.</span>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-md-3 control-label">Message</label>
+					<div class="col-md-4">
+						<textarea class="form-control" asp-for="Message"></textarea>
+						<span class="help-block">Enter message content.</span>
+					</div>
+				</div>
+				<div class="form-group last">
+					<label class="col-md-3 control-label">Is Read</label>
+					<div class="col-md-4">
+						<input type="checkbox" asp-for="Read">
+						<span class="help-block">Mark if the notification has been read.</span>
+					</div>
+				</div>
+			</div>
+			<div class="form-actions">
+				<div class="row">
+					<div class="col-md-offset-3 col-md-9">
+						<button type="submit" class="btn green">Submit</button>
+						<button type="button" class="btn default">Cancel</button>
+					</div>
+				</div>
+			</div>
+		</form>
+
+		<!-- END FORM-->
+	</div>
+</div>
